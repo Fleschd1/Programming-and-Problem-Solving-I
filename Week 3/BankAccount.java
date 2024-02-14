@@ -1,4 +1,4 @@
-// 
+
 // Bank Account has a balance and allows to withdrawing and depositing, also displaying balance.
 // Author: Daniel Flesch
 // 01/31/2024
