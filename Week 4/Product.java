@@ -68,4 +68,13 @@ public class Product {
     {
         return price;
     }
+
+/**
+ * Reduces the price of the product by a specified amount
+ * @param reductionAmount
+ */
+    public void reducePrice(double reductionAmount)
+    {
+        price = price - reductionAmount;
+    }
 }
