@@ -21,13 +21,13 @@ public class MoreMath {
         int maximum = Math.max(n1, n2);
         int minimum = Math.min(n1, n2);
 
-        System.out.printf("\nThe sum: %d", sum);
-        System.out.printf("\nThe difference: %d", difference);
-        System.out.printf("\nThe product: of %d", product);
-        System.out.printf("\nThe average: %.2f%n", average);
+        System.out.printf("\nThe sum: %13d", sum);
+        System.out.printf("\nThe difference: %5d", difference);
+        System.out.printf("\nThe product: %10d", product);
+        System.out.printf("\nThe average: %12.2f%n", average);
         System.out.printf("\nThe absolute value: %d", absolute);
-        System.out.printf("\nThe maximum: %d", maximum);
-        System.out.printf("\nThe minimum: %d", minimum);
+        System.out.printf("\nThe maximum: %9d", maximum);
+        System.out.printf("\nThe minimum: %9d", minimum);
     }
 }
  
